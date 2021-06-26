@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/signin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body h1{
+    font-size: 5em;
+    line-height: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+#signin_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 1.5em;
+    font-family: 'New Tegomin', sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+input[type=text]:focus,input[type=password]:focus {
+    background-image: linear-gradient(to right bottom, #dff3f6, #e8f5fb, #f2f8fe, #fafbfe, #ffffff);
+}
+.submit, .button{
+    width: max-content;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'New Tegomin', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid black;
+}
+.submit:hover, .button{
+    background-color:  rgb(211, 73, 63);
+    color: white;
+}
+
+.errore {
+    font-size: 1.5em;
+}
